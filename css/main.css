@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "B Yekan";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src:
+    url("../font/b-yekan/Yekan.eot?#iefix") format("embedded-opentype"),
+    url("../font/b-yekan/Yekan.woff") format("woff"),
+    url("../font/b-yekan/Yekan.ttf") format("truetype"),
+    url("../font/b-yekan/Yekan.svg#BYekan") format("svg");
+}
+
+body{
+	font-family: "B Yekan","Droid Sans",tahoma, sans-serif;
+    direction: rtl;
+    text-align: right;
+    margin: 0 !important;
+
+    background: url('../image/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+/* Set for auto heigh on IE browsers */
+img{
+    min-height: 1px;
+}
+
+
+#alert{
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.container{
+    background-color: whitesmoke;
+}
+
+.edit-action{
+    margin-left: 10px;
+}
+
+.edit-action:hover{
+    color:green;
+    cursor: pointer;
+}
+
+.delete-action:hover{
+    color:red;
+    cursor: pointer;
+}
+
+#hide-alert:hover{
+    color:black;
+    cursor: pointer;
+}
+
+
+.email-assignment-row:hover{
+    background-color: white;
+}
+
+.read-write{
+    display: none;
+}
+
+.edit-save{
+    margin-left: 15px;
+}
+
+.edit-save:hover{
+    color:green;
+    cursor: pointer;
+}
+
+.edit-cancel:hover{
+    color:red;
+    cursor: pointer;
+}
